@@ -1,4 +1,6 @@
 # Gatekeeper-Api-Pubsub
+Gatekeeper is a term to describe a selection and validation of input data before proceed it to the next step.
+In this task, we're given a case of tracking user activity data from our the partner company. However, to avoid any harm, data leakage, and error occured, we're not allowed to access their databases. We just have a json file containing all user data activity. In this case,  we will only use insert and delete command in general, therefore, the most crucial thing is transfering the data to database by using PubSub programme on google Cloud platform. For this task, I'm running everything in Windows system, using Flask fro the API, VSC, Postman, and Google Pubsub.
 
 ## Requirements
 - GCP Account
